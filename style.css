@@ -101,3 +101,9 @@ a:hover {
     font-size: 1.5rem;
   }
 }
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
