@@ -6,19 +6,39 @@
         <title>My Portfolio</title>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="mediaqueries.css" />
+        <style>
+            .resume-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+            }
+            .resume-container iframe {
+                width: 80%;
+                height: 600px;
+                border: none;
+            }
+        </style>
     </head>
     <body>
         <nav id="desktop-nav">
             <div class="logo">JoeRay Pana</div>
             <div>
-                <u1 class="nav-links">
+                <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                </u1>
+                </ul>
             </div>
         </nav>
+        
+        <!-- Your other content here -->
+
+        <div class="resume-container">
+            <iframe src="2024 JoeRay Pana Resume-2.pdf"></iframe>
+        </div>
+
         <script src="scripts.js"></script>
     </body>
 </html>
