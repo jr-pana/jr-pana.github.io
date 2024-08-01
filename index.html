@@ -1,138 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="=X-UA-Compatible" content="IE=edge" />
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="mediaqueries.css" />
-        <style>
-            .resume-container {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                margin-top: 20px;
-            }
-            .resume-container img {
-                max-width: 80%;
-                height: auto;
-                border: none;
-            }
-            .resume-title {
-                font-size: 24px;
-                font-weight: bold;
-                margin-bottom: 10px;
-            }
-            section {
-                padding: 20px;
-                margin: 20px 0;
-            }
-            section h2 {
-                font-size: 32px;
-                margin-bottom: 20px;
-                text-align: center;
-            }
-            section h3 {
-                font-size: 24px;
-                margin: 15px 0;
-                font-weight: bold;
-            }
-            section ul {
-                list-style-type: none;
-                padding-left: 0;
-            }
-            section ul li {
-                font-size: 18px;
-                margin: 5px 0;
-            }
-            section p {
-                font-size: 18px;
-                margin: 5px 0;
-            }
-            @media (max-width: 768px) {
-                .resume-container img {
-                    max-width: 100%;
-                }
-                section h2 {
-                    font-size: 28px;
-                }
-                section h3 {
-                    font-size: 22px;
-                }
-                section ul li, section p {
-                    font-size: 16px;
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <nav id="desktop-nav">
-            <div class="logo">JoeRay Pana</div>
-            <div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        
-        <section id="about">
-            <h2>About</h2>
-            <p><strong>JoeRay Paña</strong><br>
-               Española, NM | joeraypana@gmail.com | (505)-690-8898 | <a href="https://linkedin.com/in/joeraypana" target="_blank">LinkedIn</a></p>
-            <h3>Education</h3>
-            <p><strong>University of New Mexico - Los Alamos</strong>, Los Alamos, NM | January 2023 - Present<br>
-               Computer Science Major; Sophomore; GPA: 3.44<br>
-               <strong>St. Michael’s High School</strong>, Santa Fe, NM | Graduation May 2022<br>
-               Weighted GPA: 3.90</p>
-            <h3>Skills</h3>
-            <ul>
-                <li><strong>Audio Editing</strong></li>
-                <li><strong>Video Editing</strong></li>
-                <li><strong>3D Modeling</strong></li>
-                <li><strong>Customer Service</strong></li>
-                <li><strong>Public Speaking</strong></li>
-                <li><strong>Voice Actor</strong></li>
-                <li><strong>Coding</strong></li>
-                <li><strong>Computer Building</strong></li>
-                <li><strong>Typist (75+ WPM)</strong></li>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JoeRay Paña - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">JoeRay Paña</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </section>
-
-        <section id="experience">
-            <h2>Experience</h2>
-            <h3>LOS ALAMOS NATIONAL LABORATORY | Student Software Developer Intern</h3>
-            <p>June 2024 - Present<br>
-               Convert existing programs from an older language to Python utilizing PyQt5, Qt Designer, CSS, and other tools.</p>
-            <h3>WALMART | Asset Protection Investigator; Online Grocery Pickup</h3>
-            <p>August 2023 - June 2024<br>
-               Assists with securing the assets of the facility and property by observing and communicating suspicious activity, aiding in investigations, maintaining paperwork, logs, and other required documentation while ensuring security and safety practices are adhered to.</p>
-            <h3>STARBUCKS | BARISTA</h3>
-            <p>September 2022 - November 2022<br>
-               Preparation of a variety of beverages and food items while creating quality service through customer connections.</p>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <p> ● Los Alamos National Laboratory Linear Accelerator Software Modernization | From Tcl/Tk to PyQt5: Modernizing LINAC Control Apps at LANSCE</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p><strong>JoeRay Paña</strong><br>
-               Española, NM<br>
-               Email: <a href="mailto:joeraypana@gmail.com">joeraypana@gmail.com</a><br>
-               Phone: (505)-690-8898</p>
-        </section>
-
-        <div class="resume-container">
-            <div class="resume-title">Resume</div>
-            <img src="2024 JoeRay Pana Resume-2 (1).jpg" alt="JoeRay Pana Resume">
         </div>
+    </nav>
+    
+    <section id="about">
+        <h2>About</h2>
+        <p><strong>JoeRay Paña</strong><br>
+           Española, NM | <a href="mailto:joeraypana@gmail.com">joeraypana@gmail.com</a> | (505)-690-8898 | <a href="https://linkedin.com/in/joeraypana" target="_blank">LinkedIn</a></p>
+        <h3>Education</h3>
+        <p><strong>University of New Mexico - Los Alamos</strong>, Los Alamos, NM | January 2023 - Present<br>
+           Computer Science Major; Sophomore; GPA: 3.44<br>
+           <strong>St. Michael’s High School</strong>, Santa Fe, NM | Graduation May 2022<br>
+           Weighted GPA: 3.90</p>
+    </section>
 
-        <script src="scripts.js"></script>
-    </body>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Audio Editing</li>
+            <li>Video Editing</li>
+            <li>3D Modeling</li>
+            <li>Customer Service</li>
+            <li>Public Speaking</li>
+            <li>Voice Acting</li>
+            <li>Coding</li>
+            <li>Computer Building</li>
+            <li>Typing (75+ WPM)</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Student Software Developer Intern</h3>
+            <h4>Los Alamos National Laboratory</h4>
+            <p>June 2024 - Present</p>
+            <ul>
+                <li>Convert existing programs from an older language to Python utilizing PyQt5, Qt Designer, CSS, and other tools.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Asset Protection Investigator; Online Grocery Pickup</h3>
+            <h4>Walmart</h4>
+            <p>August 2023 - June 2024</p>
+            <ul>
+                <li>Assists with securing the assets of the facility and property by observing and communicating suspicious activity, aiding in investigations, maintaining paperwork, logs, and other required documentation while ensuring security and safety practices are adhered to.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Barista</h3>
+            <h4>Starbucks</h4>
+            <p>September 2022 - November 2022</p>
+            <ul>
+                <li>Preparation of a variety of beverages and food items while creating quality service through customer connections.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Los Alamos National Laboratory Linear Accelerator Software Modernization</li>
+            <li>From Tcl/Tk to PyQt5: Modernizing LINAC Control Apps at LANSCE</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>JoeRay Paña</strong><br>
+           Española, NM<br>
+           Email: <a href="mailto:joeraypana@gmail.com">joeraypana@gmail.com</a><br>
+           Phone: (505)-690-8898</p>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
