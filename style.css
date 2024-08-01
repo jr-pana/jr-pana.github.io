@@ -71,6 +71,18 @@ a:hover {
   cursor: default;
 }
 
+.contact-info {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.linkedin-logo {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
 /* MOBILE NAV */
 
 @media (max-width: 768px) {
@@ -88,6 +100,11 @@ a:hover {
 
   .logo {
     margin-bottom: 1rem;
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-top: 10px;
   }
 }
 
@@ -146,4 +163,36 @@ section p {
   font-size: 20px;
   font-weight: normal;
   color: #666;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skills-category {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.skills-category h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.skills-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-category ul li {
+  font-size: 16px;
+  margin: 5px 0;
 }
