@@ -209,9 +209,20 @@ section p {
 }
 
 .project-poster img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 800px; /* Set a reasonable max-width */
+}
+
+@media (max-width: 768px) {
+  .project-poster img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-poster img {
+    max-width: 100%;
+  }
 }
