@@ -171,6 +171,7 @@ section p {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .skills-category {
@@ -178,7 +179,10 @@ section p {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 300px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  margin: 10px;
 }
 
 .skills-category h3 {
