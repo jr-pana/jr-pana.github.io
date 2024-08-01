@@ -212,4 +212,17 @@ section p {
   max-width: 70%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .project-poster img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-poster img {
+    max-width: 100%;
+  }
+}
